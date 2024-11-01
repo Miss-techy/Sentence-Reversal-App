@@ -1,0 +1,68 @@
+/*  SENTENCE REVERSAL APP  */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --dark-blue: #042a23;
+  --blue: #2341a7;
+}
+
+body {
+font-family:Cambria; 
+background-color: var(--dark-blue);
+color: var(--white);
+}
+
+.title,
+.header,
+.reversed-result {
+  text-align: center;
+}
+
+.header {
+  margin: 20px 0;
+}
+
+.title {
+  padding: 10px 0;
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+}
+
+.label-text {
+  font-size: 1.2rem;
+}
+
+.reverse-str-btn {
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: block;
+  margin: 35px auto;
+}
+
+.user-sentence-input {
+  height: 30px;
+  width: 200px;
+}
+
+.reversed-result {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 768px) {
+  .user-sentence-input {
+    width: 500px;
+  }
+}

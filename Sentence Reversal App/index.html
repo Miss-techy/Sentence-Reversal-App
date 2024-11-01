@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="assets/addons/font-awesome-4.7.0/css/font-awesome.css">
+
+    <title>Sentence Reversal</title>
+  </head>
+<body>
+
+<!-- SENTENCE REVERSAL APP -->
+
+<header class="header">
+  <h1 class="title">Let's reverse your sentence!</h1>
+  <label class="label-text" for="user-sentence">Enter a 
+    sentence: 
+  </label>
+  <input class="user-sentence-input" maxlength="30" type="text" id="user-sentence" value="" />
+  <button class="reverse-str-btn" type="button" id="reverse-str-btn">
+    Reverse It!
+  </button>
+</header>
+
+<main>
+  <p class="reversed-result" id="reversed-str-result"></p>
+</main>
+
+<script src="main.js"></script>
+
+</body>
+</html>
